@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ent2</title>
+ <link href="css/style.css" rel="stylesheet" type="text/css"> 
+</head>
+
+<body>
+ <a href="index.html"> Home</a>
+ <a href="ent1.html"> Albums</a>
+ <a href="ent2.html">Events</a>	
+	<h1>Dreamville Festival 2020</h1>
+	<p>When: April 4th, 2020</p>
+	<p>Where: Raleigh, NC</p>
+	<h2>Plan tickets now and get to see artist perfrom live!!</h2>
+	<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Phone 
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+
+<fieldset>
+<legend>Ticket Type</legend>
+<p><label class="choice"> <input type="VIP" name="General Admission" required value="VIP">VIP</label></p>
+<p><label class="choice"> <input type="VIP" name="General Admission" required value="General Admission">General Admission </label></p>
+<p><label class="choice"> <input type="VIP" name="General Admission" required value="Early Bird Reserved Seating">Early Bird Reserved Seating </label></p>
+</fieldset>
+
+<fieldset>
+<legend>Extras</legend>
+<p><label class="choice"> <input type="checkbox" name="extras" value="Backstage Pass"> Backstage Pass </label></p>
+<p><label class="choice"> <input type="checkbox" name="extras" value="Food Pass"> Food Pass </label></p>
+<p><label class="choice"> <input type="checkbox" name="extras" value="Drink Pass"> Drink Pass </label></p>
+</fieldset>
+
+
+
+<p><button>Submit Booking</button></p>
+
+</form>
+</body>
+</html>
